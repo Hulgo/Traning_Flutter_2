@@ -57,7 +57,14 @@ class _HomeState extends State<Home> {
                 labelText: "Altura (cm)",
                 labelStyle: TextStyle(color: Colors.green)),
           ),
-
+          RaisedButton(
+            onPressed: () {},
+            child: Text(
+              "Calcular",
+              style: TextStyle(color: Colors.white, fontSize: 25.0),
+            ),
+            color: Colors.green,
+          ),
         ],
       ),
     );
